@@ -11,3 +11,12 @@
 # 29.5 is not a whole number, it has decimal places. Therefore there is a remainder of 0.5, so the division is not clean.
 
 # The modulo is written as a percentage sign (%) in Python. It gives you the remainder after a division.
+
+# solution
+
+number=int(input("What number do you want to choose "))
+
+if number % 2 == 0:
+    print("This is a Even number. ")
+else:
+    print("This is odd number ")    
